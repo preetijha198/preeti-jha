@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -7,20 +8,18 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <div className="scroll-smooth">
-      {/* Navbar */}
+    <Router>
       <Navbar />
-
-      {/* Sections with IDs for smooth scrolling */}
-      <section id="home"><Home /></section>
-      <section id="about"><About /></section>
-      <section id="projects"><Projects /></section>
-      <section id="contact"><Contact /></section>
-
-      {/* Footer */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+        
+      </Routes>
       <Footer />
-    </div>
+    </Router>
   );
 }
 
-export default App;
+export default App; 
