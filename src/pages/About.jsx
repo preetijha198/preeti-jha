@@ -2,7 +2,7 @@ import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaCuttlefish, FaBrain, FaUsers, FaCl
 
 const About = () => {
   return (
-    <div className="p-8 text-center bg-gray-600 text-white min-h-screen">
+    <div className="p-8 text-center bg-gray-600 text-white min-h-screen mt-[60px]">
       {/* About Me Section */}
       <h2 className="text-4xl font-bold">About Me</h2>
       <p className="mt-4 max-w-2xl mx-auto text-lg">
