@@ -68,7 +68,7 @@ const Home = () => {
         >
           View Resume
         </a>
-        <a href="/contact" className="bg-green-500 text-white px-6 py-2 rounded-lg shadow-md hover:bg-green-700 transition-all">
+        <a href="/Contact" className="bg-green-500 text-white px-6 py-2 rounded-lg shadow-md hover:bg-green-700 transition-all">
           Contact Me
         </a>
       </div>
