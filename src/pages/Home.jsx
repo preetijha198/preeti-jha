@@ -1,6 +1,8 @@
 import preetiImage from "../assets/preeti_image.jpeg";
 import { FaGithub, FaLinkedin, FaEnvelope, FaHtml5, FaCss3Alt, FaJs, FaReact, FaCuttlefish } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
+import { Link } from "react-router-dom";
+
 
 const Home = () => {
   return (
@@ -68,9 +70,7 @@ const Home = () => {
         >
           View Resume
         </a>
-        <a href="/Contact" className="bg-green-500 text-white px-6 py-2 rounded-lg shadow-md hover:bg-green-700 transition-all">
-          Contact Me
-        </a>
+        
       </div>
     </div>
   );
