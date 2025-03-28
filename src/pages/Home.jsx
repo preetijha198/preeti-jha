@@ -1,7 +1,7 @@
 import preetiImage from "../assets/preeti_image.jpeg";
 import { FaGithub, FaLinkedin, FaEnvelope, FaHtml5, FaCss3Alt, FaJs, FaReact, FaCuttlefish } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import { Link } from "react-router-dom";
+
 
 
 const Home = () => {
